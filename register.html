@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OgaPay - Index</title>
+    <link rel="stylesheet" href="Assets/Css/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/fab805c479.js" crossorigin="anonymous"></script>
+    <script src="assets/Js/ogapay.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+        
+          <form action="Dashboard.html" onsubmit="myFunction()">
+              <h1>OgaPay</h1>
+              <marquee>Please fill in this form to create an account on OgaPay and Enjoy Lots of benefits..</marquee>
+              <hr>
+              <label for="first name"><b>First Name</b></label>
+              <input type="text" placeholder="Enter First name" name="first name" required>
+    
+              <label for="last name"><b>Last Name</b></label>
+              <input type="text" placeholder="Enter Last name" name="last name" required>
+    
+              <label for="email"><b>Email</b></label>
+              <input type="email" placeholder="Enter Email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+              <label for="number"><b>Phone Number</b></label>
+              <input type="number" placeholder="Enter Phone Number" name="number" required>
+          
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+              </label>
+              <center><h3>Or</h3></center>
+              <div class="title">Sign Up with below options</div>
+              <div class="social_icons">
+                <a href="#"><i class="fab fa-facebook-f"></i> <span>Facebook</span></a>
+                <a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+              </div>
+              <p>By creating an account you agree to our <a href="#" style="color:whitesmoke">Terms & Privacy</a></p>
+              <p>If you have an account you can log in here <a href="Log_in.html" style="color:whitesmoke">Log In</a></p>
+          
+              <div class="clearfix">
+                <button type="submit" class="signupbtn">Register</button>
+              </div>
+          </form>
+        </div>
+    </div>
+    <script>
+    function myFunction() {
+      alert("The form will be submitted shortly, click ok to continue");
+    }
+  </script>
+</body>
+</html>

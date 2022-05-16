@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Money</title>
+    <link rel="stylesheet" href="Assets/Css/transferpage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/fab805c479.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+    <div class="main-container">
+        <div class="container">
+            <form action="Dashboard.html" onsubmit="myFunction()">              
+                <h1>OgaPay</h1>
+              <marquee>Transfer Money To Friends & Family...</marquee>
+              <hr>
+              <label for="account number"><b>Account Number</b></label>
+              <input type="number" placeholder="Enter Account Number" name="account number" required>
+    
+              <label for="amount"><b>Amount</b></label>
+              <input type="number" placeholder="Enter Amount" name="amount" required>
+    
+              <label for="desc"><b>Description</b></label>
+              <input type="text" placeholder="money for what...?" name="desc" required>
+          
+              <label for="pin"><b>Pin</b></label>
+              <input type="password" placeholder="Enter Pin" name="pin" required>
+              <div class="clearfix">
+                <button type="submit" class="signupbtn">Send Money</button>
+              </div>
+          </form>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+          alert("Money Sent Succesfully");
+        }
+      </script>
+</body>
+</html>
