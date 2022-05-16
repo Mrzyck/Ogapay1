@@ -94,9 +94,9 @@ button:hover {
     width: 100%;
   }
 }
-@media screen and (max-width: 150px) {
-  .body {
-    float: none;
-    display: block;
-  }
+@media only screen and (max-width:620px) {
+      /* For mobile phones: */
+      .body {
+        width:100%;
+      }
 }
