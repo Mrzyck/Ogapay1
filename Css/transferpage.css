@@ -96,7 +96,7 @@ button:hover {
 }
 @media only screen and (max-width:620px) {
       /* For mobile phones: */
-      .body {
+      .main-container {
         width:100%;
       }
 }
